@@ -1,10 +1,10 @@
-should contain the following:
-details:
+Training, Validation, and Test sets are not provided in this folder. However, the details are outlined bellow: 
 
-1- Where the data come from,
-2- What scripts under the scripts/ directory transformed which files under raw/ into which files under processed/ and cleaned/, and
-Why each file under cleaned/ exists, with optional references to particular notebooks. (Optional, especially when things are still in flux.)
-
-Here, I'm suggesting placing the data under the same project directory, but only under certain conditions. Firstly, only when you're the only person working on the project, and so there's only one authoritative source of data. Secondly, only when your data can fit on disk.
-
-If you're working with other people, you will want to make sure that all of you agree on what the "authoritative" data source is. If it is a URL (e.g. to an s3 bucket, or to a database), then that URL should be stored and documented in the custom Python package, with a concise variable name attached to it. If it is a path on an HPC cluster and it fits on disk, there should be a script that downloads it so that you have a local version.
+1- Data was in PDF format files, auto generated with coresponding anotated label files.
+2- PDF files were converted to PNG images, creating 15000 pages for training and validation.
+3- Of the above 15000 images those with descrepensy errors between input and target images were excluded from the training/val set.
+4- Corrupted samples were exported to a separate folder for further investigation.
+5- 3000 images were seleced for the training of the model (initial set).
+6- Test set contained 4 pdf pages.
+7- The first version of working model using the above 3000 training/val set is provided in notebook folder under the name:
+Final_1_Model_3000samples_resnet34_10epochs.ipynb
