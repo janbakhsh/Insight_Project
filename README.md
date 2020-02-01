@@ -1,4 +1,4 @@
-#Project overview 
+# Project overview 
 
 •	Object segmentation and extraction from PDF files, such as:
 •	body-text
