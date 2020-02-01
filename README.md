@@ -1,11 +1,11 @@
 # Project overview 
 
-### Object segmentation and extraction from PDF files, such as:
-###	body-text
-###	titles/headings
-###	footers/headers/pagination
-###	tables
-###	signatures/seals 
+Object segmentation and extraction from PDF files, such as:
+body-text
+titles/headings
+footers/headers/pagination
+tables
+signatures/seals 
 ...
 
 
