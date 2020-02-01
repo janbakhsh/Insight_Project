@@ -11,7 +11,7 @@ signatures/seals
 
 # Approach
 
-Applying computer vision models based on Pytorch framework
+Applying computer vision models based on Pytorch framework\n
 i.	Pixel segmentation using Unet architecture with Resnet34 in the encoder block
 ii.	Trained the model with initial 3000 samples with accuracy measured based on overall correct pixel classification 
 iii.	Saved model was tested on 4 unseen pdf pages containing title, subtitle, list, body, header/footer. same marging and layout format as in the training set  
