@@ -1,3 +1,7 @@
+# Project Objective
+
+The objective of this project/product was to create a model that can receive textual objects in PDF format and output multiple files in TXT format, each containing different objects (textual classes such as Header, Footer, Body, List, Title, subtitles,…), on order to be used in a data pipeline for auto-extraction of specific entities (such as names, items,…). These entities could only reside within a desired section of the document  
+
 # Approach
 
 Applying computer vision models based on Pytorch framework  
